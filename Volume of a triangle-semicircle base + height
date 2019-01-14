@@ -1,0 +1,10 @@
+def trianglearea(base,height):
+    return (base*height)/2
+    
+pi = 3.14
+
+def semicirclearea(radius):
+    return pi * radius**2 / 2
+    
+def volume(area_of_base, height):
+    return  area_of_base*height
